@@ -30,29 +30,29 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
+╭─「 MADE-BOT 」
 │ Hai, %name!
 │
-│ Tersisa *%limit Limit*
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Tersisa %limit Limit
+│ Role %role
+│ Level %level (%exp / %maxexp) [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ Tanggal: %week %weton, %date
+│ Tanggal Islam: %dateIslamic
+│ Waktu: %time
 │
-│ Uptime: *%uptime (%muptime)*
+│ Uptime: %uptime 
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ Github: https://github.com/madegans
+│ 
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
+%Made-Bot❤️@^%version
 ${'```%npmdesc```'}
 `,
 }
